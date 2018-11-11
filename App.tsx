@@ -1,13 +1,19 @@
 import * as React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-
+import ImageList from './src/components/ImageList';
 export default class App extends React.Component<{}> {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Open up App.ts to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
+        <ImageList
+          images={[
+            require('./assets/images/Iris.jpeg'),
+            require('./assets/images/Fourier.jpg'),
+            require('./assets/images/Planck.jpg'),
+            require('./assets/images/Orthodox.jpg'),
+            require('./assets/images/HHKB.jpg')
+          ]}
+        />
       </View>
     );
   }
@@ -18,6 +24,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
-  },
+    justifyContent: 'center'
+  }
 });
