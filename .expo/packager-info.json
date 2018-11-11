@@ -1,9 +1,9 @@
 {
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 39815,
-  "expoServerNgrokUrl": "https://42-s7g.shinzooon.share-diy-pictures.exp.direct",
-  "packagerNgrokUrl": "https://packager.42-s7g.shinzooon.share-diy-pictures.exp.direct",
-  "ngrokPid": 39835,
+  "packagerPid": 41431,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
   "devToolsPort": 19002
 }
